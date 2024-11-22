@@ -19,6 +19,6 @@ pipeline "generate_iam_credential_report" {
 
   output "status" {
     description = "A structure with status details about the credentials report generates."
-    value       = jsondecode(step.container.generate_iam_credential_report.stdout).Status
+    value       = jsondecode(step.container.generate_iam_credential_report.stdout)
   }
 }
