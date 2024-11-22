@@ -1,4 +1,4 @@
-pipeline "cgenerate_iam_credential_report" {
+pipeline "generate_iam_credential_report" {
   title       = "Generate IAM Credential Report"
   description = "Generates the IAM Credential Report."
 
